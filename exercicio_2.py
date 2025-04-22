@@ -30,8 +30,9 @@ impares= []
 
 print("Resposta:")
 
-for numero in lista:
-    if numero % 2 != 0:
-        impares.append(numero)
+for num in lista:
+    if num % 2 != 0:
+        impares.append(num)
 
 print("Os números ímpares são", impares)
+
