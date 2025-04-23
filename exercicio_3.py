@@ -38,7 +38,7 @@ segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os núme
 maior_primeira=max(primeira_lista)
 maior_segunda=max(segunda_lista)
 
-print("Resposta:")
+print("Resposta:\n")
 if maior_primeira > maior_segunda:
     print("Primeira")
 elif maior_segunda > maior_primeira:
