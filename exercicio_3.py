@@ -40,10 +40,11 @@ maior_segunda=max(segunda_lista)
 
 print("Resposta: \n")
 if maior_primeira > maior_segunda:
-    print("Primeira")
+    print("Primeira.")
 elif maior_segunda > maior_primeira:
-    print("Segunda")
+    print("Segunda.")
 else:
-    print("Ambas")
+    print("Ambas.")
+
 
 
