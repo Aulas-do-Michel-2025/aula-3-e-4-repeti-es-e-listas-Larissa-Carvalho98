@@ -35,16 +35,18 @@ segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os núme
 
 # Fazer a partir daqui
 
+primeira_lista = [*map(int, input("Digite a sua primeira lista (separando os números por vírgula): ").split(","))]
+segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os números por vírgula): ").split(","))]
+
 maior_primeira=max(primeira_lista)
 maior_segunda=max(segunda_lista)
 
-print("Resposta: \n")
 if maior_primeira > maior_segunda:
-    print("Primeira.")
+    print("Primeira")
 elif maior_segunda > maior_primeira:
-    print("Segunda.")
+    print("Segunda")
 else:
-    print("Ambas.")
+    print("Ambas")
 
 
 
